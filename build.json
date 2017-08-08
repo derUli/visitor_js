@@ -1,0 +1,9 @@
+{
+	"id": "visitor_js",
+	"version": "1.0",
+	"description": "visitor.js: Detect Each Visitor's Geographical Location, Browser, Device, etc.",
+	"categories": [
+		"statistics"
+	],
+	"compatible_from": "2017.3.12"
+}

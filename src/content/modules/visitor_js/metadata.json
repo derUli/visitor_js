@@ -1,0 +1,17 @@
+{
+	"source": "extend",
+	"version": "1.0",
+	"embed": false,
+	"controllers": {
+		"VisitorJS": "VisitorJS.php",
+		"VisitorJSSettings": "VisitorJSSettings.php"
+	},
+	"main_class": "VisitorJS",
+	"custom_acl": [
+		"visitor_js"
+	],
+	"admin_permission": "visitor_js",
+	"controller_function_permissions": {
+		"VisitorJSSettings::savePost": "visitor_js"
+	}
+}
