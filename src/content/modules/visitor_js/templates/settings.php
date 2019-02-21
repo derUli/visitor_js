@@ -10,16 +10,17 @@
 <?php
 		}
 		?>
-<p>
+
 	<strong><?php translate("visitor_js_key");?></strong> <br /> <input
 		type="text" name="visitor_js_key"
 		value="<?php Template::escape(Settings::get("visitor_js_key"));?>">
-</p>
-<p>
-	[<a href="http://www.visitorjs.com/plans" target="_blank"><?php translate("get_a_key")?></a>]
-</p>
-
-<p>
-	<button type="submit" class="btn btn-default"><?php translate("save");?></button>
-</p>
+	<div class="row voffset3">
+		<div class="col-xs-4">
+	<button type="submit" class="btn btn-default"><i class="fa fa-save"></i> <?php translate("save");?></button>
+		</div>
+	
+		<div class="col-xs-8 text-right">
+			<a href="http://www.visitorjs.com/plans" target="_blank" class="btn btn-info"><i class="fas fa-shopping-cart"></i> <?php translate("get_a_key");?></a>
+		</div>
+	</div>
 </form>
